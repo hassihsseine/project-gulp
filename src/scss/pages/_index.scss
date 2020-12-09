@@ -1,0 +1,33 @@
+body ,html{
+  //font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+/*body{
+  font-family: 'Roboto', sans-serif;
+  background: #1A1A2E;
+}*/
+
+#banner{
+  .netflux_movies{
+    min-height: 100vh;
+    position: relative;
+    background: $black;
+    @media(max-width: 768px) {
+      padding-top: 100px;
+    };
+  }
+
+  .netflux_movie{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(7px);
+  }
+
+  .netflux_bg {
+    font-size: 4rem;
+  }
+}
